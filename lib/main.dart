@@ -86,7 +86,10 @@ class __MbodyState extends State<_Mbody> {
             controller: txtFieA,
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
-                hintText: "Number1", border: OutlineInputBorder()),
+              hintText: "Number1",
+              border:
+                  OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
+            ),
           ),
         ),
         Container(
@@ -98,7 +101,9 @@ class __MbodyState extends State<_Mbody> {
             controller: txtFieB,
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
-                hintText: "Number2", border: OutlineInputBorder()),
+                hintText: "Number2",
+                border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(15))),
           ),
         ),
         Container(
