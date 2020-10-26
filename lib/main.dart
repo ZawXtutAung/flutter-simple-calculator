@@ -74,7 +74,7 @@ class __MbodyState extends State<_Mbody> {
               borderRadius: BorderRadius.circular(20)),
           child: Text(
             _result.toString(),
-            style: TextStyle(fontSize: 30),
+            style: TextStyle(fontSize: 30, fontFamily: 'Henny'),
           ),
         ),
         Container(
